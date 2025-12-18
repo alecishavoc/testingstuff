@@ -1,0 +1,93 @@
+body{
+	background-color: aliceblue;
+	background-image: url("minecraft.png");
+	background-repeat: no-repeat;
+	scroll-behavior: smooth;
+}
+
+.headText{
+	margin-top: 150px;
+	margin-left: 70px;
+	width: 450px;
+	height: 250px;
+	background-color: #ffffff;
+ 	border: 1px inset white;
+  	opacity: 0.65;
+	text-align: center;
+}
+
+.headText h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 50px;
+	margin: 5%;
+  	font-weight: bold;
+  	color: #000000;
+	opacity: 1;
+}
+
+.headText p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+	margin-left: 50px;
+	margin: 5%;
+  	font-weight: bold;
+  	color: #000000;
+	opacity: 1;
+}
+
+.header{
+	width: 100%;
+	height: 50px;
+	background: black;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	opacity: 0.85;
+	z-index: 1;
+}
+
+.top{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 8.5px;
+	text-decoration: none;
+	font-size: 17px;
+	margin-left: 12vw;
+}
+
+.top:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.blank{
+	height: 600px;
+}
+
+.centerContent h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.mainImg{
+	width: 250px;
+	border-radius: 20px;
+	transition: 200ms ease-in-out;
+	cursor: pointer;
+	margin: 15px;
+}
+
+.mainImg:hover{
+	transform: scale(1.07);
+}
+
+.items{
+	top: 100px;
+	width: 150px;
+	transition: 200ms ease-in-out;
+	cursor: pointer;
+	margin: 40px;
+	border-radius: 20px;
+	z-index: 2;
+  }
