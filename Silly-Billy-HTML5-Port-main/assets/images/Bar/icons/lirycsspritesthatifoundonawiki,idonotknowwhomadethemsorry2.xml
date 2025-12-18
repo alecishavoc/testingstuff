@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="lirycs2.png" width="4080" height="3600">
+  <SubTexture name="lirycs0235" x="3" y="3"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0237" x="3" y="512"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0238" x="3" y="1021"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0240" x="3" y="1530"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0241" x="3" y="2039"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0242" x="3" y="2548"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0220" x="3" y="3057"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0222" x="236" y="3057"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0223" x="237" y="3"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0225" x="237" y="512"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0226" x="237" y="1021"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0227" x="237" y="1530"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0218" x="237" y="2039"  width="226" height="503" frameX="-55" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0230" x="237" y="2548"  width="226" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0231" x="469" y="2039"  width="226" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0232" x="469" y="2548"  width="226" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0233" x="469" y="3057"  width="226" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0216" x="470" y="3"  width="225" height="503" frameX="-56" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0217" x="470" y="512"  width="225" height="503" frameX="-56" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0212" x="470" y="1021"  width="224" height="503" frameX="-57" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0215" x="470" y="1530"  width="224" height="502" frameX="-57" frameY="-1" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0246" x="700" y="1021"  width="228" height="501" frameX="-52" frameY="-2" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0247" x="700" y="1528"  width="228" height="501" frameX="-52" frameY="-2" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0245" x="701" y="3"  width="228" height="500" frameX="-52" frameY="-3" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0208" x="701" y="509"  width="223" height="500" frameX="-59" frameY="-3" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0210" x="930" y="509"  width="223" height="500" frameX="-59" frameY="-3" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0211" x="935" y="3"  width="223" height="500" frameX="-59" frameY="-3" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0248" x="701" y="2035"  width="229" height="498" frameX="-51" frameY="-5" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0250" x="934" y="1015"  width="229" height="498" frameX="-51" frameY="-5" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0251" x="1159" y="509"  width="227" height="495" frameX="-53" frameY="-8" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0205" x="1169" y="3"  width="217" height="490" frameX="-68" frameY="-13" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0207" x="934" y="1519"  width="217" height="490" frameX="-68" frameY="-13" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0253" x="701" y="2539"  width="224" height="488" frameX="-57" frameY="-15" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0255" x="701" y="3033"  width="224" height="488" frameX="-57" frameY="-15" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0256" x="931" y="2539"  width="224" height="488" frameX="-57" frameY="-15" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0258" x="936" y="2015"  width="221" height="483" frameX="-60" frameY="-20" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0260" x="1161" y="1519"  width="221" height="483" frameX="-60" frameY="-20" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0257" x="1388" y="1519"  width="221" height="482" frameX="-60" frameY="-21" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0261" x="1169" y="1010"  width="229" height="458" frameX="-54" frameY="-45" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0262" x="931" y="3033"  width="229" height="458" frameX="-54" frameY="-45" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0265" x="1161" y="2504"  width="244" height="439" frameX="-36" frameY="-64" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0268" x="1166" y="2008"  width="246" height="421" frameX="-33" frameY="-80" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0285" x="1418" y="2008"  width="223" height="413" frameX="-65" frameY="-89" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0271" x="1647" y="2007"  width="238" height="411" frameX="-43" frameY="-90" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0282" x="1166" y="2949"  width="222" height="410" frameX="-64" frameY="-92" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0273" x="1166" y="3365" width="407" height="230" rotated="true"  frameX="-52" frameY="-95" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0276" x="1394" y="2949"  width="225" height="407" frameX="-57" frameY="-95" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0202" x="1579" y="3362" width="391" height="224" rotated="true"  frameX="-78" frameY="-111" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0277" x="1411" y="2435"  width="223" height="406" frameX="-60" frameY="-96" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0280" x="1625" y="2847"  width="221" height="404" frameX="-63" frameY="-98" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0321" x="1640" y="2427"  width="296" height="394" frameX="-34" frameY="-106" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0322" x="1942" y="2424"  width="295" height="391" frameX="-35" frameY="-109" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0318" x="1852" y="2827"  width="297" height="389" frameX="-34" frameY="-109" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0290" x="1976" y="3222" width="358" height="375" rotated="true"  frameX="-60" frameY="-144" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0295" x="2340" y="3222" width="357" height="374" rotated="true"  frameX="-62" frameY="-145" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0305" x="2703" y="3222"  width="330" height="370" frameX="-60" frameY="-132" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0306" x="3039" y="3222"  width="330" height="370" frameX="-60" frameY="-132" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0287" x="2155" y="2821"  width="259" height="385" frameX="-65" frameY="-117" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0323" x="2420" y="2821"  width="299" height="383" frameX="-31" frameY="-117" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0333" x="2725" y="2821"  width="298" height="380" frameX="-32" frameY="-120" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0336" x="3029" y="2821"  width="298" height="380" frameX="-32" frameY="-120" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0297" x="3375" y="3"  width="379" height="357" frameX="-62" frameY="-145" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0198" x="3760" y="3" width="317" height="277" rotated="true"  frameX="-79" frameY="-185" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0200" x="3760" y="286" width="317" height="277" rotated="true"  frameX="-79" frameY="-185" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0298" x="3375" y="366"  width="379" height="357" frameX="-62" frameY="-145" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0201" x="3760" y="569" width="317" height="277" rotated="true"  frameX="-79" frameY="-185" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0326" x="3375" y="729" width="379" height="300" rotated="true"  frameX="-30" frameY="-121" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0330" x="3375" y="1035" width="379" height="298" rotated="true"  frameX="-32" frameY="-121" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0125" x="3375" y="1339" width="377" height="304" rotated="true"  frameX="-36" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0313" x="3758" y="1339"  width="318" height="351" frameX="-8" frameY="-151" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0127" x="3375" y="1649" width="377" height="304" rotated="true"  frameX="-36" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0113" x="3760" y="852"  width="315" height="367" frameX="-22" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0106" x="3758" y="1696"  width="315" height="366" frameX="-22" frameY="-134" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0128" x="3375" y="1959" width="377" height="304" rotated="true"  frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0110" x="3758" y="2068"  width="315" height="366" frameX="-22" frameY="-134" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0131" x="3375" y="2269" width="377" height="304" rotated="true"  frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0103" x="3758" y="2440"  width="314" height="367" frameX="-24" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0132" x="3375" y="2579" width="377" height="304" rotated="true"  frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0105" x="3758" y="2813"  width="314" height="367" frameX="-24" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0133" x="3375" y="2889" width="377" height="304" rotated="true"  frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0117" x="3758" y="3186"  width="314" height="367" frameX="-24" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0136" x="3375" y="3199" width="377" height="304" rotated="true"  frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0137" x="1392" y="3"  width="304" height="377" frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0122" x="1392" y="386"  width="303" height="377" frameX="-37" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0120" x="1404" y="769"  width="302" height="377" frameX="-39" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0143" x="1701" y="386"  width="301" height="377" frameX="-40" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0146" x="2008" y="386"  width="301" height="377" frameX="-40" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0149" x="2315" y="386"  width="301" height="377" frameX="-40" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0175" x="1702" y="3"  width="301" height="377" frameX="-39" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0150" x="2009" y="3"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0152" x="2315" y="3"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0156" x="2621" y="3"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0303" x="1404" y="1152" width="366" height="348" rotated="true"  frameX="-60" frameY="-136" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0158" x="1712" y="769"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0161" x="2927" y="3" width="377" height="300" rotated="true"  frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0163" x="2927" y="309" width="377" height="300" rotated="true"  frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0180" x="2622" y="386"  width="298" height="377" frameX="-44" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0165" x="2926" y="615" width="377" height="300" rotated="true"  frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0166" x="1615" y="1506"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0301" x="1776" y="1152" width="366" height="347" rotated="true"  frameX="-61" frameY="-136" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0168" x="2018" y="769"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0171" x="1891" y="1889"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0173" x="1921" y="1505"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0183" x="2197" y="1152"  width="294" height="344" frameX="-48" frameY="-156" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0174" x="2324" y="769"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0316" x="2630" y="769"  width="289" height="362" frameX="-36" frameY="-140" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0138" x="2925" y="921" width="376" height="301" rotated="true"  frameX="-39" frameY="-124" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0191" x="2630" y="1137" width="289" height="287" rotated="true"  frameX="-79" frameY="-213" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0141" x="2925" y="1228" width="376" height="301" rotated="true"  frameX="-39" frameY="-124" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0142" x="2497" y="1430" width="376" height="301" rotated="true"  frameX="-39" frameY="-124" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0101" x="2879" y="1535" width="369" height="303" rotated="true"  frameX="-44" frameY="-131" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0102" x="2197" y="1888"  width="303" height="369" frameX="-44" frameY="-131" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0311" x="2506" y="1737" width="337" height="284" rotated="true"  frameX="-42" frameY="-165" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0307" x="2849" y="1844" width="331" height="288" rotated="true"  frameX="-39" frameY="-171" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0186" x="2506" y="2027" width="294" height="272" rotated="true"  frameX="-78" frameY="-208" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0195" x="2506" y="2305" width="293" height="287" rotated="true"  frameX="-79" frameY="-209" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0188" x="2805" y="2305"  width="284" height="289" frameX="-78" frameY="-213" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0104" x="3758" y="2440"  width="314" height="367" frameX="-24" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0107" x="3758" y="1696"  width="315" height="366" frameX="-22" frameY="-134" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0108" x="3758" y="1696"  width="315" height="366" frameX="-22" frameY="-134" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0109" x="3758" y="1696"  width="315" height="366" frameX="-22" frameY="-134" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0111" x="3758" y="2068"  width="315" height="366" frameX="-22" frameY="-134" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0112" x="3758" y="2068"  width="315" height="366" frameX="-22" frameY="-134" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0114" x="3760" y="852"  width="315" height="367" frameX="-22" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0115" x="3760" y="852"  width="315" height="367" frameX="-22" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0116" x="3760" y="852"  width="315" height="367" frameX="-22" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0118" x="3758" y="3186"  width="314" height="367" frameX="-24" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0119" x="3758" y="3186"  width="314" height="367" frameX="-24" frameY="-133" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0121" x="1404" y="769"  width="302" height="377" frameX="-39" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0123" x="1392" y="386"  width="303" height="377" frameX="-37" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0124" x="1392" y="386"  width="303" height="377" frameX="-37" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0126" x="3375" y="1339" width="377" height="304" rotated="true"  frameX="-36" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0129" x="3375" y="1959" width="377" height="304" rotated="true"  frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0130" x="3375" y="1959" width="377" height="304" rotated="true"  frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0134" x="3375" y="2889" width="377" height="304" rotated="true"  frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0135" x="3375" y="2889" width="377" height="304" rotated="true"  frameX="-35" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0139" x="2925" y="921" width="376" height="301" rotated="true"  frameX="-39" frameY="-124" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0140" x="2925" y="921" width="376" height="301" rotated="true"  frameX="-39" frameY="-124" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0144" x="1701" y="386"  width="301" height="377" frameX="-40" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0145" x="1701" y="386"  width="301" height="377" frameX="-40" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0147" x="2008" y="386"  width="301" height="377" frameX="-40" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0148" x="2008" y="386"  width="301" height="377" frameX="-40" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0151" x="2009" y="3"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0153" x="2315" y="3"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0154" x="2315" y="3"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0155" x="2315" y="3"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0157" x="2621" y="3"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0159" x="1712" y="769"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0160" x="1712" y="769"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0162" x="2927" y="3" width="377" height="300" rotated="true"  frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0164" x="2927" y="309" width="377" height="300" rotated="true"  frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0167" x="1615" y="1506"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0169" x="2018" y="769"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0170" x="2018" y="769"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0172" x="1891" y="1889"  width="300" height="377" frameX="-42" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0176" x="1702" y="3"  width="301" height="377" frameX="-39" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0177" x="1702" y="3"  width="301" height="377" frameX="-39" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0178" x="1702" y="3"  width="301" height="377" frameX="-39" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0179" x="1702" y="3"  width="301" height="377" frameX="-39" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0181" x="2622" y="386"  width="298" height="377" frameX="-44" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0182" x="2622" y="386"  width="298" height="377" frameX="-44" frameY="-123" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0184" x="2197" y="1152"  width="294" height="344" frameX="-48" frameY="-156" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0185" x="2197" y="1152"  width="294" height="344" frameX="-48" frameY="-156" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0187" x="2506" y="2027" width="294" height="272" rotated="true"  frameX="-78" frameY="-208" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0189" x="2805" y="2305"  width="284" height="289" frameX="-78" frameY="-213" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0190" x="2805" y="2305"  width="284" height="289" frameX="-78" frameY="-213" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0192" x="2630" y="1137" width="289" height="287" rotated="true"  frameX="-79" frameY="-213" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0193" x="2630" y="1137" width="289" height="287" rotated="true"  frameX="-79" frameY="-213" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0194" x="2630" y="1137" width="289" height="287" rotated="true"  frameX="-79" frameY="-213" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0196" x="2506" y="2305" width="293" height="287" rotated="true"  frameX="-79" frameY="-209" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0197" x="2506" y="2305" width="293" height="287" rotated="true"  frameX="-79" frameY="-209" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0199" x="3760" y="3" width="317" height="277" rotated="true"  frameX="-79" frameY="-185" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0203" x="1579" y="3362" width="391" height="224" rotated="true"  frameX="-78" frameY="-111" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0204" x="1579" y="3362" width="391" height="224" rotated="true"  frameX="-78" frameY="-111" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0206" x="1169" y="3"  width="217" height="490" frameX="-68" frameY="-13" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0209" x="701" y="509"  width="223" height="500" frameX="-59" frameY="-3" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0213" x="470" y="1021"  width="224" height="503" frameX="-57" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0214" x="470" y="1021"  width="224" height="503" frameX="-57" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0219" x="237" y="2039"  width="226" height="503" frameX="-55" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0221" x="3" y="3057"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0224" x="237" y="3"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0228" x="237" y="1530"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0229" x="237" y="1530"  width="227" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0234" x="469" y="3057"  width="226" height="503" frameX="-54" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0236" x="3" y="3"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0239" x="3" y="1021"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0243" x="3" y="2548"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0244" x="3" y="2548"  width="228" height="503" frameX="-52" frameY="-0" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0249" x="701" y="2035"  width="229" height="498" frameX="-51" frameY="-5" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0252" x="1159" y="509"  width="227" height="495" frameX="-53" frameY="-8" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0254" x="701" y="2539"  width="224" height="488" frameX="-57" frameY="-15" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0259" x="936" y="2015"  width="221" height="483" frameX="-60" frameY="-20" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0263" x="931" y="3033"  width="229" height="458" frameX="-54" frameY="-45" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0264" x="931" y="3033"  width="229" height="458" frameX="-54" frameY="-45" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0266" x="1161" y="2504"  width="244" height="439" frameX="-36" frameY="-64" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0267" x="1161" y="2504"  width="244" height="439" frameX="-36" frameY="-64" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0269" x="1166" y="2008"  width="246" height="421" frameX="-33" frameY="-80" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0270" x="1166" y="2008"  width="246" height="421" frameX="-33" frameY="-80" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0272" x="1647" y="2007"  width="238" height="411" frameX="-43" frameY="-90" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0274" x="1166" y="3365" width="407" height="230" rotated="true"  frameX="-52" frameY="-95" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0275" x="1166" y="3365" width="407" height="230" rotated="true"  frameX="-52" frameY="-95" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0278" x="1411" y="2435"  width="223" height="406" frameX="-60" frameY="-96" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0279" x="1411" y="2435"  width="223" height="406" frameX="-60" frameY="-96" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0281" x="1625" y="2847"  width="221" height="404" frameX="-63" frameY="-98" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0283" x="1166" y="2949"  width="222" height="410" frameX="-64" frameY="-92" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0284" x="1166" y="2949"  width="222" height="410" frameX="-64" frameY="-92" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0286" x="1418" y="2008"  width="223" height="413" frameX="-65" frameY="-89" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0288" x="2155" y="2821"  width="259" height="385" frameX="-65" frameY="-117" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0289" x="2155" y="2821"  width="259" height="385" frameX="-65" frameY="-117" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0291" x="1976" y="3222" width="358" height="375" rotated="true"  frameX="-60" frameY="-144" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0292" x="1976" y="3222" width="358" height="375" rotated="true"  frameX="-60" frameY="-144" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0293" x="1976" y="3222" width="358" height="375" rotated="true"  frameX="-60" frameY="-144" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0294" x="1976" y="3222" width="358" height="375" rotated="true"  frameX="-60" frameY="-144" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0296" x="2340" y="3222" width="357" height="374" rotated="true"  frameX="-62" frameY="-145" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0299" x="3375" y="366"  width="379" height="357" frameX="-62" frameY="-145" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0300" x="3375" y="366"  width="379" height="357" frameX="-62" frameY="-145" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0302" x="1776" y="1152" width="366" height="347" rotated="true"  frameX="-61" frameY="-136" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0304" x="1404" y="1152" width="366" height="348" rotated="true"  frameX="-60" frameY="-136" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0308" x="2849" y="1844" width="331" height="288" rotated="true"  frameX="-39" frameY="-171" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0309" x="2849" y="1844" width="331" height="288" rotated="true"  frameX="-39" frameY="-171" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0310" x="2849" y="1844" width="331" height="288" rotated="true"  frameX="-39" frameY="-171" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0312" x="2506" y="1737" width="337" height="284" rotated="true"  frameX="-42" frameY="-165" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0314" x="3758" y="1339"  width="318" height="351" frameX="-8" frameY="-151" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0315" x="3758" y="1339"  width="318" height="351" frameX="-8" frameY="-151" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0317" x="2630" y="769"  width="289" height="362" frameX="-36" frameY="-140" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0319" x="1852" y="2827"  width="297" height="389" frameX="-34" frameY="-109" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0320" x="1852" y="2827"  width="297" height="389" frameX="-34" frameY="-109" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0324" x="2420" y="2821"  width="299" height="383" frameX="-31" frameY="-117" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0325" x="2420" y="2821"  width="299" height="383" frameX="-31" frameY="-117" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0327" x="3375" y="729" width="379" height="300" rotated="true"  frameX="-30" frameY="-121" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0328" x="3375" y="729" width="379" height="300" rotated="true"  frameX="-30" frameY="-121" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0329" x="3375" y="729" width="379" height="300" rotated="true"  frameX="-30" frameY="-121" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0331" x="3375" y="1035" width="379" height="298" rotated="true"  frameX="-32" frameY="-121" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0332" x="3375" y="1035" width="379" height="298" rotated="true"  frameX="-32" frameY="-121" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0334" x="2725" y="2821"  width="298" height="380" frameX="-32" frameY="-120" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0335" x="2725" y="2821"  width="298" height="380" frameX="-32" frameY="-120" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0337" x="3029" y="2821"  width="298" height="380" frameX="-32" frameY="-120" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0338" x="3029" y="2821"  width="298" height="380" frameX="-32" frameY="-120" frameWidth="480" frameHeight="503"/>
+  <SubTexture name="lirycs0339" x="3029" y="2821"  width="298" height="380" frameX="-32" frameY="-120" frameWidth="480" frameHeight="503"/>
+</TextureAtlas>
