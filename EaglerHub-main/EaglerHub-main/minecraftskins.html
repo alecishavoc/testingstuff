@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Skins</title>
+  <link rel="icon" type="image/png" href="minebrick.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/skinview3d/bundles/skinview3d.bundle.js"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <div class="min-h-screen flex flex-col items-center p-6">
+
+    <!-- Heading -->
+    <h1 class="text-5xl font-bold mb-12 text-green-400 drop-shadow-lg">
+      Minecraft Skins
+    </h1>
+
+    <!-- Skins Grid -->
+    <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Frontman -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
+        <canvas id="frontmanCanvas" width="200" height="300" class="mx-auto mb-4"></canvas>
+        <h2 class="text-xl font-semibold mb-2">Frontman</h2>
+        <div class="flex justify-center gap-2 mb-3">
+          <button onclick="setAnimation('frontman','idle')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Idle</button>
+          <button onclick="setAnimation('frontman','walk')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Walk</button>
+          <button onclick="setAnimation('frontman','run')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Run</button>
+          <button onclick="setAnimation('frontman','still')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Still</button>
+        </div>
+        <a href="skins/frontman.png" download class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-500 transition">Download</a>
+      </div>
+
+      <!-- Radio Knight -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
+        <canvas id="radioknightCanvas" width="200" height="300" class="mx-auto mb-4"></canvas>
+        <h2 class="text-xl font-semibold mb-2">Radio Knight</h2>
+        <div class="flex justify-center gap-2 mb-3">
+          <button onclick="setAnimation('radioknight','idle')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Idle</button>
+          <button onclick="setAnimation('radioknight','walk')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Walk</button>
+          <button onclick="setAnimation('radioknight','run')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Run</button>
+          <button onclick="setAnimation('radioknight','still')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Still</button>
+        </div>
+        <a href="skins/radioknight.png" download class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-500 transition">Download</a>
+      </div>
+
+      <!-- Guard Officer -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
+        <canvas id="guardofficerCanvas" width="200" height="300" class="mx-auto mb-4"></canvas>
+        <h2 class="text-xl font-semibold mb-2">Guard Officer</h2>
+        <div class="flex justify-center gap-2 mb-3">
+          <button onclick="setAnimation('guardofficer','idle')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Idle</button>
+          <button onclick="setAnimation('guardofficer','walk')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Walk</button>
+          <button onclick="setAnimation('guardofficer','run')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Run</button>
+          <button onclick="setAnimation('guardofficer','still')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Still</button>
+        </div>
+        <a href="skins/guardofficer.png" download class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-500 transition">Download</a>
+      </div>
+
+      <!-- Gaming Creeper -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
+        <canvas id="grcreeperCanvas" width="200" height="300" class="mx-auto mb-4"></canvas>
+        <h2 class="text-xl font-semibold mb-2">Gaming Creeper</h2>
+        <div class="flex justify-center gap-2 mb-3">
+          <button onclick="setAnimation('grcreeper','idle')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Idle</button>
+          <button onclick="setAnimation('grcreeper','walk')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Walk</button>
+          <button onclick="setAnimation('grcreeper','run')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Run</button>
+          <button onclick="setAnimation('grcreeper','still')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Still</button>
+        </div>
+        <a href="skins/grcreeper.png" download class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-500 transition">Download</a>
+      </div>
+
+      <!-- Dream Glowing Business Man -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
+        <canvas id="glowingCanvas" width="200" height="300" class="mx-auto mb-4"></canvas>
+        <h2 class="text-xl font-semibold mb-2">Dream Glowing Business Man</h2>
+        <div class="flex justify-center gap-2 mb-3">
+          <button onclick="setAnimation('glowing','idle')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Idle</button>
+          <button onclick="setAnimation('glowing','walk')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Walk</button>
+          <button onclick="setAnimation('glowing','run')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Run</button>
+          <button onclick="setAnimation('glowing','still')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Still</button>
+        </div>
+        <a href="skins/glowinganylaticsplanner.png" download class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-500 transition">Download</a>
+      </div>
+
+      <!-- Blue Beast -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
+        <canvas id="bluebeastCanvas" width="200" height="300" class="mx-auto mb-4"></canvas>
+        <h2 class="text-xl font-semibold mb-2">Blue Beast</h2>
+        <div class="flex justify-center gap-2 mb-3">
+          <button onclick="setAnimation('bluebeast','idle')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Idle</button>
+          <button onclick="setAnimation('bluebeast','walk')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Walk</button>
+          <button onclick="setAnimation('bluebeast','run')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Run</button>
+          <button onclick="setAnimation('bluebeast','still')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Still</button>
+        </div>
+        <a href="skins/bluebeast.png" download class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-500 transition">Download</a>
+      </div>
+
+      <!-- Smooth Nit -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
+        <canvas id="smoothnitCanvas" width="200" height="300" class="mx-auto mb-4"></canvas>
+        <h2 class="text-xl font-semibold mb-2">Smooth Nit</h2>
+        <div class="flex justify-center gap-2 mb-3">
+          <button onclick="setAnimation('smoothnit','idle')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Idle</button>
+          <button onclick="setAnimation('smoothnit','walk')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Walk</button>
+          <button onclick="setAnimation('smoothnit','run')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Run</button>
+          <button onclick="setAnimation('smoothnit','still')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Still</button>
+        </div>
+        <a href="skins/smoothnit.png" download class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-500 transition">Download</a>
+      </div>
+
+      <!-- Dreamer -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
+        <canvas id="dreamerCanvas" width="200" height="300" class="mx-auto mb-4"></canvas>
+        <h2 class="text-xl font-semibold mb-2">Dreamer</h2>
+        <div class="flex justify-center gap-2 mb-3">
+          <button onclick="setAnimation('dreamer','idle')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Idle</button>
+          <button onclick="setAnimation('dreamer','walk')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Walk</button>
+          <button onclick="setAnimation('dreamer','run')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Run</button>
+          <button onclick="setAnimation('dreamer','still')" class="bg-gray-700 px-2 py-1 rounded hover:bg-green-600">Still</button>
+        </div>
+        <a href="skins/dreamer.png" download class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-500 transition">Download</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    const viewers = {};
+
+    const skins = {
+      frontman: "skins/frontman.png",
+      radioknight: "skins/radioknight.png",
+      guardofficer: "skins/guardofficer.png",
+      grcreeper: "skins/grcreeper.png",
+      glowing: "skins/glowinganylaticsplanner.png",
+      bluebeast: "skins/bluebeast.png",
+      smoothnit: "skins/smoothnit.png",
+      dreamer: "skins/dreamer.png"
+    };
+
+    for (const key in skins) {
+      const canvas = document.getElementById(key + "Canvas");
+      if (canvas) {
+        const viewer = new skinview3d.SkinViewer({
+          canvas: canvas,
+          width: 200,
+          height: 300,
+          skin: skins[key]
+        });
+        viewer.controls.enableZoom = false;
+        viewer.autoRotate = true;
+        viewer.animation = new skinview3d.IdleAnimation();
+        viewers[key] = viewer;
+      }
+    }
+
+    function setAnimation(name, anim) {
+      const viewer = viewers[name];
+      if (!viewer) return;
+      viewer.autoRotate = false;
+      if (anim === "idle") viewer.animation = new skinview3d.IdleAnimation();
+      if (anim === "walk") viewer.animation = new skinview3d.WalkingAnimation();
+      if (anim === "run") viewer.animation = new skinview3d.RunningAnimation();
+      if (anim === "still") viewer.animation = null;
+    }
+  </script>
+</body>
+</html>
