@@ -7,72 +7,47 @@
   <link rel="icon" type="image/png" href="minebrick.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Fullscreen Iframe Styling */
-    #game-container {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: #000;
-      display: none; /* Hidden until a game is clicked */
-      z-index: 9999;
-    }
-    iframe { width: 100%; height: 100%; border: none; }
-    
-    .back-btn {
-      position: absolute;
-      top: 10px; left: 10px;
-      padding: 8px 15px;
-      background: rgba(0,0,0,0.5);
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 10000;
-      font-family: sans-serif;
-      display: none;
-    }
-    .back-btn:hover { background: #ff4444; }
+    .game-card { cursor: pointer; }
+    .game-card:hover { transform: translateY(-5px); }
   </style>
 </head>
 <body class="bg-gray-900 text-white font-sans flex flex-col min-h-screen">
-
-  <div id="game-container">
-    <div class="back-btn" id="close-game">Close Game</div>
-    <iframe id="game-frame"></iframe>
-  </div>
 
   <main id="hub-ui" class="flex-grow flex flex-col items-center justify-center p-6">
     <h1 class="text-5xl font-bold mb-12 text-green-400 drop-shadow-lg">Eaglercraft Hub</h1>
 
     <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-      <a href="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/118.html" 
-         class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center cursor-pointer">
+      
+      <div data-url="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/118.html" 
+          class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
         <h2 class="text-2xl font-semibold mb-2">Eaglercraft 1.8.8</h2>
         <p class="text-gray-300">Most popular for pvp etc</p>
-      </a>
+      </div>
 
-      <a href="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/1112.html" 
-         class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center cursor-pointer">
+      <div data-url="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/1112.html" 
+          class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
         <h2 class="text-2xl font-semibold mb-2">Eaglercraft 1.11.2</h2>
         <p class="text-gray-300">Latest of the latest</p>
-      </a>
+      </div>
 
-      <a href="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/125.html" 
-         class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center cursor-pointer">
+      <div data-url="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/125.html" 
+          class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
         <h2 class="text-2xl font-semibold mb-2">Eaglercraft 1.2.5</h2>
         <p class="text-gray-300">Classic version</p>
-      </a>
+      </div>
       
-      <a href="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/processed.html" 
-         class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center cursor-pointer">
+      <div data-url="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/processed.html" 
+          class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
         <h2 class="text-2xl font-semibold mb-2">1.8.8 Modded</h2>
         <p class="text-gray-300">Custom clients</p>
-      </a>
+      </div>
 
-      <a href="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/Eagler-Reborn.html" 
-         class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center cursor-pointer">
+      <div data-url="https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/EaglerHub-main/EaglerHub-main/Eagler-Reborn.html" 
+          class="game-card bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
         <h2 class="text-2xl font-semibold mb-2">Eagler Reborn</h2>
         <p class="text-gray-300">Built in mods</p>
-      </a>
+      </div>
+
     </div>
   </main>
 
@@ -81,51 +56,43 @@
   </footer>
 
   <script>
-    const gameContainer = document.getElementById('game-container');
-    const gameFrame = document.getElementById('game-frame');
-    const closeBtn = document.getElementById('close-game');
-
     document.querySelectorAll('.game-card').forEach(card => {
-      card.addEventListener('click', async (e) => {
-        e.preventDefault();
-        
-        const url = card.getAttribute('href');
+      card.addEventListener('click', async () => {
+        const url = card.getAttribute('data-url');
         const folderPath = url.substring(0, url.lastIndexOf('/') + 1);
 
+        // 1. Open the window immediately to bypass popup blockers
+        const newWin = window.open('about:blank', '_blank');
+        
+        if (!newWin) {
+          alert("Please allow popups for this site to launch the game.");
+          return;
+        }
+
         try {
+          // 2. Fetch the game code
           const response = await fetch(url + '?t=' + Date.now());
+          if (!response.ok) throw new Error("Fetch failed");
           const html = await response.text();
 
-          // Show the container
-          gameContainer.style.display = 'block';
-          closeBtn.style.display = 'block';
-
-          // Inject code into the IFRAME instead of the main window
-          // This creates a safe "sandbox" for the game to run perfectly
-          const frameDoc = gameFrame.contentWindow.document;
-          frameDoc.open();
+          // 3. Inject into the new window
+          newWin.document.open();
           
           const baseTag = `<base href="${folderPath}">`;
-          const fixedText = html.includes('<head>') 
+          const injectedHtml = html.includes('<head>') 
             ? html.replace('<head>', `<head>${baseTag}`)
             : baseTag + html;
             
-          frameDoc.write(fixedText);
-          frameDoc.close();
+          newWin.document.write(injectedHtml);
+          newWin.document.close();
 
         } catch (err) {
-          console.error("Game load failed:", err);
-          window.location.href = url;
+          console.error("Launch error:", err);
+          // Fallback: If fetch is blocked, try loading the URL directly in that window
+          newWin.location.href = url;
         }
       });
     });
-
-    // Button to exit game and return to hub
-    closeBtn.onclick = () => {
-      gameContainer.style.display = 'none';
-      closeBtn.style.display = 'none';
-      gameFrame.src = "about:blank"; // Stop the game from running in background
-    };
   </script>
 </body>
 </html>
