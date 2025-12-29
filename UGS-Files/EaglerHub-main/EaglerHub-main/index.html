@@ -10,56 +10,73 @@
 <body class="bg-gray-900 text-white font-sans flex flex-col min-h-screen">
   <main class="flex-grow flex flex-col items-center justify-center p-6">
     
-    <!-- Title -->
     <h1 class="text-5xl font-bold mb-12 text-green-400 drop-shadow-lg">
       Eaglercraft Hub
     </h1>
 
-    <!-- Versions Grid -->
     <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
       
-      <!-- Version 1.8.8 -->
-      <a href="118.html" 
-   class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
-  <h2 class="text-2xl font-semibold mb-2">Eaglercraft Release 1.8.8</h2>
-  <p class="text-gray-300">Most popular for pvp etc</p>
-</a>
+      <a href="118.html" class="game-link bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
+        <h2 class="text-2xl font-semibold mb-2">Eaglercraft Release 1.8.8</h2>
+        <p class="text-gray-300">Most popular for pvp etc</p>
+      </a>
 
-
-      <!-- Version Beta 1.3 -->
-      <a href="1112.html" 
-         class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
+      <a href="1112.html" class="game-link bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
         <h2 class="text-2xl font-semibold mb-2">Eaglercraft Release 1.11.2</h2>
         <p class="text-gray-300">Latest of the latest, maybe</p>
       </a>
 
-      <!-- Version 1.2.5 -->
-      <a href="125.html" 
-         class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
+      <a href="125.html" class="game-link bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
         <h2 class="text-2xl font-semibold mb-2">Eaglercraft 1.2.5</h2>
         <p class="text-gray-300"></p>
       </a>
       
-      <!-- Version 1.8.8 mod client -->
-      <a href="processed.html" 
-         class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
+      <a href="processed.html" class="game-link bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
         <h2 class="text-2xl font-semibold mb-2">Eaglercraft 1.8.8 modified client</h2>
         <p class="text-gray-300">modded client, ill put some on forums</p>
       </a>
 
-      <!-- Version Eagler-Reborn -->
-      <a href="Eagler-Reborn.html" 
-         class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
+      <a href="Eagler-Reborn.html" class="game-link bg-gray-800 p-6 rounded-2xl shadow-lg hover:bg-green-600 transition text-center">
         <h2 class="text-2xl font-semibold mb-2">Eaglercraft Reborn</h2>
-        <p class="text-gray-300">Bulit in mods W</p>
+        <p class="text-gray-300">Built in mods W</p>
       </a>
 
     </div>
   </main>
 
-  <!-- Footer -->
   <footer class="p-4 text-center text-gray-500">
     &copy; 2025 Eaglercraft Hub, modified by game.paradise
   </footer>
+
+  <script>
+    // This script intercepts clicks and runs them through the same injection logic
+    document.querySelectorAll('.game-link').forEach(link => {
+      link.addEventListener('click', async (e) => {
+        e.preventDefault(); // Stop the browser from leaving the page
+        
+        const targetUrl = link.href; // This will be the full jsDelivr URL
+        const folderPath = targetUrl.substring(0, targetUrl.lastIndexOf('/') + 1);
+
+        try {
+          const response = await fetch(targetUrl);
+          const rawText = await response.text();
+          
+          // Clear current document and re-inject the new file's code
+          document.open();
+          // Add the base tag so images/scripts inside the new file load from GitHub
+          const baseTag = `<base href="${folderPath}">`;
+          const fixedText = rawText.includes('<head>') 
+            ? rawText.replace('<head>', `<head>${baseTag}`)
+            : baseTag + rawText;
+            
+          document.write(fixedText);
+          document.close();
+        } catch (err) {
+          console.error("Failed to inject game:", err);
+          window.location.href = targetUrl; // Fallback to normal navigation
+        }
+      });
+    });
+  </script>
 </body>
 </html>
