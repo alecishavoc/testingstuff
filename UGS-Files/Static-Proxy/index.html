@@ -1,70 +1,201 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Static Proxy</title>
-    <meta name="description" content="Ultraviolet is a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers. Unblock sites today!" />
-    <meta name="keywords" content="proxy, web proxy, ultraviolet, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked">
-    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e">
-    <meta name="googlebot" content="index, follow, snippet" />
-    <link rel="stylesheet" href="index.css">
-</script>
-<body onload = "showAlert()" >
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGS | Ultimate Game Stash</title>
+    
+    <style>
+        :root {
+            --bg: #0b0b0b;
+            --surface: #121212;
+            --text: #eaeaea;
+            --accent: #3aa0ff;
+            --border: #222;
+            --radius: 12px;
+            --glow: none;
+            --blur: 0px;
+        }
 
+        body, html {
+            margin: 0; padding: 0;
+            height: 100%; width: 100%;
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex; align-items: center; justify-content: center;
+            overflow: hidden;
+            transition: background 0.5s ease;
+        }
+
+        .ugs-card {
+            background: var(--surface);
+            backdrop-filter: blur(var(--blur));
+            -webkit-backdrop-filter: blur(var(--blur));
+            width: 90%; max-width: 450px;
+            padding: 50px 30px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            box-shadow: var(--glow);
+            text-align: center;
+            z-index: 10;
+        }
+
+        .ugs-logo {
+            font-size: 32px; font-weight: 800;
+            letter-spacing: -1px; color: var(--accent);
+            margin-bottom: 5px; text-transform: uppercase;
+        }
+
+        .ugs-subtitle {
+            font-size: 12px; opacity: 0.5;
+            letter-spacing: 2px; margin-bottom: 35px;
+            font-weight: bold;
+        }
+
+        .search-input {
+            width: 100%; padding: 14px 20px;
+            background: rgba(0,0,0,0.3);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            color: var(--text);
+            font-size: 16px; outline: none;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            transition: border-color 0.3s;
+        }
+        .search-input:focus { border-color: var(--accent); }
+
+        .button-stack { display: flex; flex-direction: column; gap: 10px; }
+        
+        button {
+            width: 100%; padding: 14px;
+            border-radius: var(--radius);
+            border: none; cursor: pointer;
+            font-weight: 700; font-size: 14px;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-launch { background: var(--accent); color: white; box-shadow: var(--glow); }
+        .btn-launch:hover { opacity: 0.9; transform: translateY(-2px); }
+
+        .btn-blank { background: rgba(255,255,255,0.05); color: var(--text); border: 1px solid var(--border); }
+        .btn-blank:hover { background: rgba(255,255,255,0.1); }
+
+        footer {
+            position: fixed; bottom: 20px;
+            width: 100%; text-align: center;
+            font-size: 11px; opacity: 0.4;
+        }
+
+        #loadingScreen {
+            position: fixed; inset: 0; background: var(--bg);
+            display: flex; align-items: center; justify-content: center;
+            z-index: 9999; transition: opacity 0.5s;
+        }
+        .spinner {
+            width: 30px; height: 30px; border: 3px solid rgba(255,255,255,0.1);
+            border-top: 3px solid var(--accent); border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+        .hidden { opacity: 0; visibility: hidden; }
+    </style>
+</head>
 <body>
-<br><br><br>
-<br><br>
-<br><br>
+
+    <div id="loadingScreen"><div class="spinner"></div></div>
+
+    <div class="ugs-card">
+        <div class="ugs-logo">For UGS</div>
+        <div class="ugs-subtitle">ultraviolet static port by carbon network, UGS port by game.paradise</div>
+
+        <form id="proxy-form">
+            <input class="search-input" id="search-input" placeholder="Search freely..." autocomplete="off">
+        </form>
+
+        <div class="button-stack">
+            <button class="btn-launch" id="launch-btn">Launch Proxy</button>
+            <button class="btn-blank" id="blank-btn">About:Blank Cloak</button>
+        </div>
     </div>
-    <div class="desc">
-        <h1 class="title">Static Proxy</h1><br><br>
-    </div>
-<br>
-    <form>
-        <input class="search-input" placeholder="Search the web freely...">
-    </form>
-    <div class="text-center">
-   <button>About:Blank</button>
-<script>
-    var urlObj = new window.URL(window.location.href);
-    var url = "/index.html";
- 
-    if (url) {
-        var win;
- 
-        document.querySelector('button').onclick = function() {
-            if (win) {
-                win.focus();
-            } 
-            else {
-                win = window.open();
-                win.document.body.style.margin = '0';
-                win.document.body.style.height = '100vh';
-                var iframe = win.document.createElement('iframe');
-                iframe.style.border = 'none';
-                iframe.style.width = '100%';
-                iframe.style.height = '100%';
-                iframe.style.margin = '0';
-                iframe.src = url;
-                win.document.body.appendChild(iframe);
-                location.replace("https://lms.fcps.edu/home");
-            }
-        };
-    }
-</script>
-<style>*{color:white;font-family:arial;text-align:center}button{width:220px;height:40px;border-radius:12px;background-color:#080808;font-family:Arial,Helvetica,sans-serif;border:none;transition:background-color 500ms}button:hover{background-color:#080808}</style>
-  </div>
-<br>
-    <div>
-    <footer style="bottom: 0; position: fixed;">
-        <p>&copy; CarbonNetwork</p>
-    </footer></div>
+
+    <footer>&copy; 2026 Game.Paradise</footer>
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+
     <script src="uv/uv.bundle.js"></script>
     <script src="uv/uv.config.js"></script>
     <script src="index.js"></script>
-</body>
 
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyAgsZ68VNL-b5AsWnzll2g_C1Yhw7IowlY",
+            authDomain: "gameparadiserawdata.firebaseapp.com",
+            projectId: "gameparadiserawdata",
+            appId: "1:6326540558:web:8115f5520f0737b239df5f"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+        async function applyParadiseTheme(uid) {
+            const doc = await db.collection("users").doc(uid).collection("settings").doc("appearance").get();
+            if (doc.exists) {
+                const data = doc.data();
+                const root = document.documentElement;
+
+                if (data.themePreset === 'black') {
+                    root.style.setProperty('--bg', '#000000');
+                    root.style.setProperty('--surface', '#080808');
+                } else if (data.themePreset === 'cyberpunk') {
+                    root.style.setProperty('--bg', '#000000');
+                    root.style.setProperty('--border', '#ff0055');
+                    root.style.setProperty('--accent', '#ff0055');
+                }
+
+                if (data.accentColor) root.style.setProperty('--accent', data.accentColor);
+                if (data.borderGlow) root.style.setProperty('--glow', `0 0 20px ${data.accentColor || 'var(--accent)'}`);
+                if (data.glassMode) {
+                    root.style.setProperty('--blur', '20px');
+                    root.style.setProperty('--surface', 'rgba(15, 15, 15, 0.6)');
+                }
+            }
+        }
+
+        // Updated Auth: No redirect to login.html
+        auth.onAuthStateChanged(async user => {
+            if (user) {
+                await applyParadiseTheme(user.uid);
+            }
+            document.getElementById('loadingScreen').classList.add('hidden');
+        });
+
+        // Proxy Form Logic (Connects to your index.js)
+        document.getElementById('launch-btn').onclick = function() {
+            const form = document.getElementById('proxy-form');
+            if (typeof form.submit === 'function') {
+                form.dispatchEvent(new Event('submit'));
+            }
+        };
+
+        // About:Blank Cloak
+        document.getElementById('blank-btn').onclick = function() {
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.src = window.location.origin + "/index.html"; 
+            win.document.body.appendChild(iframe);
+            location.replace("https://lms.fcps.edu/home");
+        };
+    </script>
+</body>
 </html>

@@ -1,10 +1,10 @@
 self.__uv$config = {
     prefix: '/uv/service/',
-    bare: 'https://academi.edu.pl/bare/',
+    bare: 'https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/Static-Proxy/bare.html',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/uv/uv.handler.js',
-    bundle: '/uv/uv.bundle.js',
-    config: '/uv/uv.config.js',
-    sw: '/uv/uv.sw.js',
+    handler: 'https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/Static-Proxy/uv/uv.handler.js',
+    bundle: 'https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/Static-Proxy/uv/uv.bundle.js',
+    config: 'https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/Static-Proxy/uv/uv.config.js',
+    sw: 'https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/Static-Proxy/uv/uv.sw.js',
 };
