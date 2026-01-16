@@ -7,7 +7,7 @@ class UVServiceWorker extends EventEmitter {
         if (!config.bare) config.bare = '/bare/';
         this.addresses = typeof config.bare === 'string' ? [ new URL(config.bare, location) ] : config.bare.map(str => new URL(str, location));
         this.headers = {
-            csp: [
+           csp: [
                 'cross-origin-embedder-policy',
                 'cross-origin-opener-policy',
                 'cross-origin-resource-policy',
@@ -29,8 +29,9 @@ class UVServiceWorker extends EventEmitter {
                 'accept-encoding', 
                 'connection',
                 'content-length',
-            ],
-        };
+                'x-bare-forward-headers'
+        ],
+    };
         this.method = {
             empty: [
                 'GET',
