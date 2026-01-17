@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/uv/service/',
-    bare: 'https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/Static-Proxy/bare.html',
+    bare: 'https://academiq.academy.cdn.cloudflare.net/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: 'https://cdn.jsdelivr.net/gh/alecishavoc/testingstuff/UGS-Files/Static-Proxy/uv/uv.handler.js',
