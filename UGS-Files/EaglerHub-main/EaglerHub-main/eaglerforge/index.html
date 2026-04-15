@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Eaglerforge...</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background-color: #111827; color: white; font-family: sans-serif; }
+    .loader {
+      border: 4px solid #374151;
+      border-top: 4px solid #22c55e;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+
+  <div id="status-container" class="text-center">
+    <div class="loader mx-auto mb-4"></div>
+    <h1 class="text-2xl font-bold text-green-400 mb-2">Eaglerforge Launcher (dont leave tab or it wont launch)</h1>
+    <p id="status-text" class="text-gray-400">Initializing assembly...</p>
+  </div>
+
+  <script>
+    // The list of your 4 parts
+    const parts = [
+      "processed.html.part1.txt",
+      "processed.html.part2.txt",
+      "processed.html.part3.txt",
+      "processed.html.part4.txt"
+    ];
+
+    async function launchGame() {
+      const statusText = document.getElementById('status-text');
+      let finalHTML = "";
+
+      try {
+        // 1. Fetch and Merge
+        for (let i = 0; i < parts.length; i++) {
+          statusText.innerText = `Downloading components: Part ${i + 1} of ${parts.length}`;
+          
+          const res = await fetch(parts[i] + "?t=" + Date.now());
+          if (!res.ok) throw new Error(`Missing file: ${parts[i]}`);
+          
+          finalHTML += await res.text();
+        }
+
+        statusText.innerText = "Finalizing injection...";
+
+        // 2. Prepare Injection (Keeping base href as local)
+        const baseTag = `<base href="./">`;
+        const injected = finalHTML.includes("<head>")
+          ? finalHTML.replace("<head>", `<head>${baseTag}`)
+          : baseTag + finalHTML;
+
+        // 3. Overwrite the current page with the game code
+        document.open();
+        document.write(injected);
+        document.close();
+
+      } catch (err) {
+        console.error(err);
+        document.getElementById('status-container').innerHTML = `
+          <div class="text-red-500">
+            <h2 class="text-xl font-bold">Launch Failed</h2>
+            <p>${err.message}</p>
+            <p class="text-sm text-gray-500 mt-2">Check if all 4 'processed.html.part' files are in this folder.</p>
+          </div>
+        `;
+      }
+    }
+
+    // Start the process automatically
+    window.onload = launchGame;
+  </script>
+</body>
+</html>
